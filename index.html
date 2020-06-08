@@ -17,13 +17,23 @@
   <style type="text/css">
 
 h1 {
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
-    
+
 @media (max-width: 767px) {
+  h1 {
+    margin-top: .2rem;
+    margin-bottom: .3rem;
+    font-size: 2rem;
+  }
   h1 > small {
     display: block;
+    font-size: 1rem;
+    font-style: italic;
+  }
+  h2 {
+    font-size: 1.5rem;
   }
 }
 
@@ -32,7 +42,7 @@ h1 {
 <body>
 <div class="container">
   <h1 class="row">
-    <div class="col-xs-12">
+    <div class="col-sm-12">
       <h1>Sulis.fi <small>Pääkaupunkiseudun sulkapallohallit</small></h1>
     </div>
   </h1>
@@ -161,6 +171,15 @@ h1 {
       </p>
     </div>
   </div>
+  <footer class="row">
+    <div class="col-sm-12">
+      <hr>
+      <p>
+        Tiedoissa korjattavaa? Jotain muuta palautetta? Ota yhteyttä:
+        <a href="mailto:info@sulis.fi">info@sulis.fi</a>
+      </p>
+    </div>
+  </footer>
 </div>
 
 </body>
